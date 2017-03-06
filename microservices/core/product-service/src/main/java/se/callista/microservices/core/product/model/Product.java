@@ -28,6 +28,14 @@ public class Product {
 		this.quantity = quantity;
 		this.price = price;
 	}
+	
+
+	public Product(String id, String productName, String description) {
+		super();
+		this.id = id;
+		this.productName = productName;
+		this.description = description;
+	}
 
 	public String getDescription() {
 		return description;
